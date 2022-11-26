@@ -1,0 +1,119 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+body{
+    background-image: url(/assets/bg.png);
+    font-family:'Poppins', sans-serif;
+
+
+}
+.logo{
+        height: 35px;
+        width: 100px;
+        margin-top:10px ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    width: 101%;
+    margin: -7px;
+    margin-left: -11px;
+    position:fixed;
+    top: 7px;
+    font-family:'Poppins', sans-serif;
+
+
+    /* border: 2px solid; */
+}
+.line{
+    border-left: 1px solid white;
+    height: 40px;
+    margin-top: 15px; 
+    position:relative;
+    right:100px;
+
+}
+    .button-small{
+    background-color: #820c8d;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 7px 19px;
+    font-family:'Poppins', sans-serif;
+    
+
+    color: white;
+}
+.grow-list{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    position: relative;
+    left: -190px;
+    /* border: 2px solid; */
+   
+
+
+}
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0px;
+    width: 95%;
+    color: white;
+    /* border: 2px solid; */
+
+}
+
+.hero{
+    margin: 80px;
+    width: 55%;
+    position: relative;
+    left: 210px;
+    top: 95px;
+    font-weight: larger;
+    font-size: 45px;
+    color: #f5f3f5;
+    font-family:'Poppins', sans-serif;
+
+    /* text-align:center;  */
+     /* border: 2px solid; */
+
+}
+.hero .hero-heading{
+    text-align:center;
+   
+    /* border: 2px solid; */
+
+}
+.hero-description{
+    font-size: 25px;
+    text-align:center;
+    margin: -62px;
+    /* border: 2px solid;     */
+}
+.button-large {
+    margin: 92px;
+    margin-left: 245px;
+    background-color: #ba2dc7;
+    border-radius: 5px;
+    padding: -48px 0px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    /* letter-spacing: 1px; */
+    color: white;
+    font-size: 28px;
+    height: 46px;
+    width: 350px;
+}
+
+/* 
+font-size
+font-weigth
+padding of navbar
+font-family
+responsive
+button editing
+*/
