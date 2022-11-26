@@ -41,7 +41,9 @@ section{
     justify-content: space-between;
     width: 55%;    
     font-family:'Poppins', sans-serif;
- 
+}
+li:nth-child(n+2){
+    color: #808080;
 }
 .list-item{
 
@@ -59,7 +61,7 @@ section{
 }
 .nav-button{
     border-radius: 7px;
-    background-color: #6f65d4;
+    background-color: #6960ce;
     padding: 20px 40px;
     text-align: center;
     font-size: 16px;
@@ -90,12 +92,13 @@ div h1{
 }
 
 h1 span {
-    color: #7873a8;
+    color: #635bad;
 }
 div p{
-    font-size: 130%;
+    font-size: 109%;
     font-family:'Poppins', sans-serif;
-
+    margin-top: -35px;
+ 
 
 
 }
