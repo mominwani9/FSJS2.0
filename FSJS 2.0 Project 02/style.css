@@ -2,7 +2,7 @@
 /* You can only modify the CSS file */
 
 body{
-    background-image: url(/assets/bg.png);
+    background-image: url(./assets/bg.png);
     font-family:'Poppins', sans-serif;
 
 
@@ -35,7 +35,7 @@ body{
 
 }
     .button-small{
-    background-color: #820c8d;
+    background-color: #ae1cbb;
     border-radius: 5px;
     margin: 15px;
     padding: 7px 19px;
@@ -90,6 +90,7 @@ body{
 .hero-description{
     font-size: 25px;
     text-align:center;
+    margin-right: -131px;
     margin: -62px;
     /* border: 2px solid;     */
 }
