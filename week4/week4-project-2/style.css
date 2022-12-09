@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: content-box; */
+    font-family: sans-serif;
+}
+
+body{
+    
+}
+
+nav{
+display: flex;
+align-items: center; 
+gap: 50%;
+justify-content: space-around;
+margin-top: 10px;
+margin: 10px 50px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 26px;
+    
+    /* text-decoration: none; */
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.aClas{
+    color:rgb(7, 192, 130);
+}
+main{
+    display: flex;
+}
