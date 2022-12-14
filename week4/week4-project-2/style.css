@@ -37,4 +37,61 @@ a{
 }
 main{
     display: flex;
+    margin: auto 50px;
+    margin-top: 75px;
+    margin-right: 60px;
+}
+.left-part{
+width: 40%;
+line-height: 40px;
+
+}
+.right-part{
+display: flex;
+
+}
+
+.btn{
+    background-color: rgb(7, 192, 130);
+    padding: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border: none;
+    border-radius: 50px;
+    color: #353535;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+.mouse{
+    position: absolute;
+    left: 450px;
+    bottom: 100px;
+}
+.bottom-angle{
+    position: absolute;
+    left: 500px;
+    bottom: 100px;
+
+}
+.right-part img{
+    position: absolute;
+}
+
+
+.yellowbox{
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    
+}
+.doctor{
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+}
+.greenbox{
+    z-index: -1;
+    position: absolute;
+    top: 300px;
 }
